@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login,Chrome 72.0.3626.121,,2019-03-24 17:24:33,2019-03-24 17:24:51,18.391s,PASSED
+,,,,,,
+Test Cases/LoginFail,Chrome 72.0.3626.121,,2019-03-24 17:24:33,2019-03-24 17:24:42,9.428s,PASSED
+"openBrowser("""")",Chrome 72.0.3626.121,,2019-03-24 17:24:33,2019-03-24 17:24:36,3.204s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Chrome 72.0.3626.121,,2019-03-24 17:24:36,2019-03-24 17:24:37,0.893s,PASSED
+"click(findTestObject(""Page_Conductor Support Ticket/button_Login""))",Chrome 72.0.3626.121,,2019-03-24 17:24:37,2019-03-24 17:24:39,1.748s,PASSED
+"verifyElementPresent(findTestObject(""Page_Sign In with Auth0/input_or_password""), 5)",Chrome 72.0.3626.121,,2019-03-24 17:24:39,2019-03-24 17:24:39,0.558s,PASSED
+delay(1),Chrome 72.0.3626.121,,2019-03-24 17:24:39,2019-03-24 17:24:40,1.018s,PASSED
+"setText(findTestObject(""Object Repository/Page_Sign In with Auth0/input_or_email""), ""wrong@wrong.com"")",Chrome 72.0.3626.121,,2019-03-24 17:24:40,2019-03-24 17:24:41,0.275s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Sign In with Auth0/input_or_password""), ""o6CDTymj93o="")",Chrome 72.0.3626.121,,2019-03-24 17:24:41,2019-03-24 17:24:41,0.158s,PASSED
+"click(findTestObject(""Object Repository/Page_Sign In with Auth0/span_Log In""))",Chrome 72.0.3626.121,,2019-03-24 17:24:41,2019-03-24 17:24:41,0.102s,PASSED
+"verifyElementPresent(findTestObject(""Page_Sign In with Auth0/span_Wrong email or password""), 5)",Chrome 72.0.3626.121,,2019-03-24 17:24:41,2019-03-24 17:24:42,0.542s,PASSED
+closeBrowser(),Chrome 72.0.3626.121,,2019-03-24 17:24:42,2019-03-24 17:24:42,0.661s,PASSED
+,,,,,,
+Test Cases/LoginPass,Chrome 72.0.3626.121,,2019-03-24 17:24:42,2019-03-24 17:24:51,8.711s,PASSED
+"openBrowser("""")",Chrome 72.0.3626.121,,2019-03-24 17:24:42,2019-03-24 17:24:45,2.186s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Chrome 72.0.3626.121,,2019-03-24 17:24:45,2019-03-24 17:24:45,0.816s,PASSED
+"click(findTestObject(""Object Repository/Page_Conductor Support Ticket/button_Login""))",Chrome 72.0.3626.121,,2019-03-24 17:24:45,2019-03-24 17:24:46,1.004s,PASSED
+"verifyElementPresent(findTestObject(""Page_Sign In with Auth0/input_or_password""), 5)",Chrome 72.0.3626.121,,2019-03-24 17:24:46,2019-03-24 17:24:47,0.541s,PASSED
+delay(1),Chrome 72.0.3626.121,,2019-03-24 17:24:47,2019-03-24 17:24:48,1.003s,PASSED
+"setText(findTestObject(""Page_Sign In with Auth0/input_or_email""), ""client@conductor.com"")",Chrome 72.0.3626.121,,2019-03-24 17:24:48,2019-03-24 17:24:48,0.304s,PASSED
+"setEncryptedText(findTestObject(""Page_Sign In with Auth0/input_or_password""), ""zjPxhPuRQFuVYAs0Abtybw=="")",Chrome 72.0.3626.121,,2019-03-24 17:24:48,2019-03-24 17:24:48,0.186s,PASSED
+"click(findTestObject(""Page_Sign In with Auth0/span_Log In""))",Chrome 72.0.3626.121,,2019-03-24 17:24:48,2019-03-24 17:24:48,0.095s,PASSED
+"verifyElementPresent(findTestObject(""Page_Conductor Support Ticket/button_Logout""), 5)",Chrome 72.0.3626.121,,2019-03-24 17:24:48,2019-03-24 17:24:50,1.754s,PASSED
+closeBrowser(),Chrome 72.0.3626.121,,2019-03-24 17:24:50,2019-03-24 17:24:51,0.649s,PASSED

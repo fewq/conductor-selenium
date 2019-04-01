@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Client,Chrome 72.0.3626.121,,2019-03-24 18:29:47,2019-03-24 18:29:59,12.235s,PASSED
+,,,,,,
+Test Cases/CreateTicket,Chrome 72.0.3626.121,,2019-03-24 18:29:47,2019-03-24 18:29:59,11.948s,PASSED
+"openBrowser("""")",Chrome 72.0.3626.121,,2019-03-24 18:29:47,2019-03-24 18:29:50,3.199s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Chrome 72.0.3626.121,,2019-03-24 18:29:50,2019-03-24 18:29:51,0.865s,PASSED
+"click(findTestObject(""Object Repository/Page_Conductor Support Ticket/button_Login""))",Chrome 72.0.3626.121,,2019-03-24 18:29:51,2019-03-24 18:29:53,1.759s,PASSED
+"verifyElementPresent(findTestObject(""Page_Sign In with Auth0/input_or_password""), 5)",Chrome 72.0.3626.121,,2019-03-24 18:29:53,2019-03-24 18:29:53,0.557s,PASSED
+delay(1),Chrome 72.0.3626.121,,2019-03-24 18:29:53,2019-03-24 18:29:54,1.027s,PASSED
+"setText(findTestObject(""Page_Sign In with Auth0/input_or_email""), ""client@conductor.com"")",Chrome 72.0.3626.121,,2019-03-24 18:29:54,2019-03-24 18:29:55,0.343s,PASSED
+"setEncryptedText(findTestObject(""Page_Sign In with Auth0/input_or_password""), ""zjPxhPuRQFuVYAs0Abtybw=="")",Chrome 72.0.3626.121,,2019-03-24 18:29:55,2019-03-24 18:29:55,0.215s,PASSED
+"click(findTestObject(""Page_Sign In with Auth0/span_Log In""))",Chrome 72.0.3626.121,,2019-03-24 18:29:55,2019-03-24 18:29:55,0.114s,PASSED
+"click(findTestObject(""Object Repository/Page_Conductor Support Ticket/a_Create Ticket""))",Chrome 72.0.3626.121,,2019-03-24 18:29:55,2019-03-24 18:29:57,1.878s,PASSED
+"click(findTestObject(""Object Repository/Page_Conductor Support Ticket/img""))",Chrome 72.0.3626.121,,2019-03-24 18:29:57,2019-03-24 18:29:57,0.155s,PASSED
+"click(findTestObject(""Object Repository/Page_Conductor Support Ticket/div_Select""))",Chrome 72.0.3626.121,,2019-03-24 18:29:57,2019-03-24 18:29:57,0.131s,PASSED
+"click(findTestObject(""Object Repository/Page_Conductor Support Ticket/div_API DevOps""))",Chrome 72.0.3626.121,,2019-03-24 18:29:57,2019-03-24 18:29:57,0.178s,PASSED
+"click(findTestObject(""Object Repository/Page_Conductor Support Ticket/form_Ticket FormTicket TypebugfeatureCategory of issueAPI DevOpsTitleYour MessageResetSubmit""))",Chrome 72.0.3626.121,,2019-03-24 18:29:57,2019-03-24 18:29:58,0.110s,PASSED
+"setText(findTestObject(""Object Repository/Page_Conductor Support Ticket/input_Title_title""), ""test1"")",Chrome 72.0.3626.121,,2019-03-24 18:29:58,2019-03-24 18:29:58,0.237s,PASSED
+"setText(findTestObject(""Object Repository/Page_Conductor Support Ticket/textarea_Your Message_description""), ""t"")",Chrome 72.0.3626.121,,2019-03-24 18:29:58,2019-03-24 18:29:58,0.137s,PASSED
+"click(findTestObject(""Object Repository/Page_Conductor Support Ticket/button_Submit""))",Chrome 72.0.3626.121,,2019-03-24 18:29:58,2019-03-24 18:29:58,0.094s,PASSED
+closeBrowser(),Chrome 72.0.3626.121,,2019-03-24 18:29:58,2019-03-24 18:29:59,0.686s,PASSED

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Client" time="11" tests="1" failures="0" errors="0">
+   <testsuite name="Client" tests="1" failures="0" errors="0" time="11" timestamp="2019-03-24 18:30:16" hostname="thadd - INSPIRON7567" id="Test Suites/Client">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\d_downloads\\conductor_test\\conductor\\Reports\\Client\\20190324_183010"/>
+         <property name="logFiles" value="D:\\d_downloads\\conductor_test\\conductor\\Reports\\Client\\20190324_183010\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="thadd - INSPIRON7567"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="Chrome 72.0.3626.121"/>
+         <property name="hostAddress" value="192.168.6.1"/>
+         <property name="sessionId" value="6a57b84e91f704fa6ce1098805dfa78f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/CreateTicket" classname="Test Cases/CreateTicket" status="PASSED">
+         <system-out><![CDATA[2019-03-24 18:30:16 - [TEST_CASE][PASSED] - Test Cases/CreateTicket: Test Cases/CreateTicket
+
+2019-03-24 18:30:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-24 18:30:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-24 18:30:17 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-24 18:30:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-24 18:30:20 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:3000/"): Navigate to 'http://localhost:3000/' successfully
+
+2019-03-24 18:30:21 - [MESSAGE][PASSED] - Navigate to 'http://localhost:3000/' successfully
+
+2019-03-24 18:30:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Conductor Support Ticket/button_Login")): Object: 'Object Repository/Page_Conductor Support Ticket/button_Login' is clicked on
+
+2019-03-24 18:30:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Conductor Support Ticket/button_Login' is clicked on
+
+2019-03-24 18:30:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Sign In with Auth0/input_or_password"), 5): Object 'Object Repository/Page_Sign In with Auth0/input_or_password' is present
+
+2019-03-24 18:30:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Sign In with Auth0/input_or_password' is present
+
+2019-03-24 18:30:22 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-03-24 18:30:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-24 18:30:23 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Sign In with Auth0/input_or_email"), "client@conductor.com"): Text 'client@conductor.com' is set on object 'Object Repository/Page_Sign In with Auth0/input_or_email'
+
+2019-03-24 18:30:24 - [MESSAGE][PASSED] - Text 'client@conductor.com' is set on object 'Object Repository/Page_Sign In with Auth0/input_or_email'
+
+2019-03-24 18:30:24 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Sign In with Auth0/input_or_password"), "zjPxhPuRQFuVYAs0Abtybw=="): Text ****** has been set on object 'Object Repository/Page_Sign In with Auth0/input_or_password'
+
+2019-03-24 18:30:24 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign In with Auth0/input_or_password'
+
+2019-03-24 18:30:24 - [TEST_STEP][PASSED] - click(findTestObject("Page_Sign In with Auth0/span_Log In")): Object: 'Object Repository/Page_Sign In with Auth0/span_Log In' is clicked on
+
+2019-03-24 18:30:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign In with Auth0/span_Log In' is clicked on
+
+2019-03-24 18:30:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Conductor Support Ticket/a_Create Ticket")): Object: 'Object Repository/Page_Conductor Support Ticket/a_Create Ticket' is clicked on
+
+2019-03-24 18:30:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Conductor Support Ticket/a_Create Ticket' is clicked on
+
+2019-03-24 18:30:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Conductor Support Ticket/img")): Object: 'Object Repository/Page_Conductor Support Ticket/img' is clicked on
+
+2019-03-24 18:30:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Conductor Support Ticket/img' is clicked on
+
+2019-03-24 18:30:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Conductor Support Ticket/div_Select")): Object: 'Object Repository/Page_Conductor Support Ticket/div_Select' is clicked on
+
+2019-03-24 18:30:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Conductor Support Ticket/div_Select' is clicked on
+
+2019-03-24 18:30:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Conductor Support Ticket/div_API DevOps")): Object: 'Object Repository/Page_Conductor Support Ticket/div_API DevOps' is clicked on
+
+2019-03-24 18:30:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Conductor Support Ticket/div_API DevOps' is clicked on
+
+2019-03-24 18:30:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Conductor Support Ticket/form_Ticket FormTicket TypebugfeatureCategory of issueAPI DevOpsTitleYour MessageResetSubmit")): Object: 'Object Repository/Page_Conductor Support Ticket/form_Ticket FormTicket TypebugfeatureCategory of issueAPI DevOpsTitleYour MessageResetSubmit' is clicked on
+
+2019-03-24 18:30:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Conductor Support Ticket/form_Ticket FormTicket TypebugfeatureCategory of issueAPI DevOpsTitleYour MessageResetSubmit' is clicked on
+
+2019-03-24 18:30:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Conductor Support Ticket/input_Title_title"), "test1"): Text 'test1' is set on object 'Object Repository/Page_Conductor Support Ticket/input_Title_title'
+
+2019-03-24 18:30:27 - [MESSAGE][PASSED] - Text 'test1' is set on object 'Object Repository/Page_Conductor Support Ticket/input_Title_title'
+
+2019-03-24 18:30:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Conductor Support Ticket/textarea_Your Message_description"), "t"): Text 't' is set on object 'Object Repository/Page_Conductor Support Ticket/textarea_Your Message_description'
+
+2019-03-24 18:30:27 - [MESSAGE][PASSED] - Text 't' is set on object 'Object Repository/Page_Conductor Support Ticket/textarea_Your Message_description'
+
+2019-03-24 18:30:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Conductor Support Ticket/button_Submit")): Object: 'Object Repository/Page_Conductor Support Ticket/button_Submit' is clicked on
+
+2019-03-24 18:30:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Conductor Support Ticket/button_Submit' is clicked on
+
+2019-03-24 18:30:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-24 18:30:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-24 18:30:16 - [TEST_SUITE][PASSED] - Client: Test Cases/CreateTicket]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

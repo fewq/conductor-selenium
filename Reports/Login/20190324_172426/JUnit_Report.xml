@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="18" tests="2" failures="0" errors="0">
+   <testsuite name="Login" tests="2" failures="0" errors="0" time="18" timestamp="2019-03-24 17:24:33" hostname="thadd - INSPIRON7567" id="Test Suites/Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\d_downloads\\conductor_test\\conductor\\Reports\\Login\\20190324_172426"/>
+         <property name="logFiles" value="D:\\d_downloads\\conductor_test\\conductor\\Reports\\Login\\20190324_172426\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="thadd - INSPIRON7567"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="Chrome 72.0.3626.121"/>
+         <property name="hostAddress" value="192.168.6.1"/>
+         <property name="sessionId" value="aa8ffb87da565eb40f25002d65a451f9"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/LoginFail" classname="Test Cases/LoginFail" status="PASSED">
+         <system-out><![CDATA[2019-03-24 17:24:33 - [TEST_CASE][PASSED] - Test Cases/LoginFail: Test Cases/LoginFail
+
+2019-03-24 17:24:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-24 17:24:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-24 17:24:33 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-24 17:24:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-24 17:24:36 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:3000/"): Navigate to 'http://localhost:3000/' successfully
+
+2019-03-24 17:24:37 - [MESSAGE][PASSED] - Navigate to 'http://localhost:3000/' successfully
+
+2019-03-24 17:24:37 - [TEST_STEP][PASSED] - click(findTestObject("Page_Conductor Support Ticket/button_Login")): Object: 'Object Repository/Page_Conductor Support Ticket/button_Login' is clicked on
+
+2019-03-24 17:24:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Conductor Support Ticket/button_Login' is clicked on
+
+2019-03-24 17:24:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Sign In with Auth0/input_or_password"), 5): Object 'Object Repository/Page_Sign In with Auth0/input_or_password' is present
+
+2019-03-24 17:24:39 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Sign In with Auth0/input_or_password' is present
+
+2019-03-24 17:24:39 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-03-24 17:24:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-24 17:24:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Sign In with Auth0/input_or_email"), "wrong@wrong.com"): Text 'wrong@wrong.com' is set on object 'Object Repository/Page_Sign In with Auth0/input_or_email'
+
+2019-03-24 17:24:41 - [MESSAGE][PASSED] - Text 'wrong@wrong.com' is set on object 'Object Repository/Page_Sign In with Auth0/input_or_email'
+
+2019-03-24 17:24:41 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Sign In with Auth0/input_or_password"), "o6CDTymj93o="): Text ****** has been set on object 'Object Repository/Page_Sign In with Auth0/input_or_password'
+
+2019-03-24 17:24:41 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign In with Auth0/input_or_password'
+
+2019-03-24 17:24:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sign In with Auth0/span_Log In")): Object: 'Object Repository/Page_Sign In with Auth0/span_Log In' is clicked on
+
+2019-03-24 17:24:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign In with Auth0/span_Log In' is clicked on
+
+2019-03-24 17:24:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Sign In with Auth0/span_Wrong email or password"), 5): Object 'Object Repository/Page_Sign In with Auth0/span_Wrong email or password' is present
+
+2019-03-24 17:24:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Sign In with Auth0/span_Wrong email or password' is present
+
+2019-03-24 17:24:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-24 17:24:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LoginPass" classname="Test Cases/LoginPass" status="PASSED">
+         <system-out><![CDATA[2019-03-24 17:24:42 - [TEST_CASE][PASSED] - Test Cases/LoginPass: Test Cases/LoginPass
+
+2019-03-24 17:24:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-24 17:24:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-24 17:24:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-24 17:24:45 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:3000/"): Navigate to 'http://localhost:3000/' successfully
+
+2019-03-24 17:24:45 - [MESSAGE][PASSED] - Navigate to 'http://localhost:3000/' successfully
+
+2019-03-24 17:24:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Conductor Support Ticket/button_Login")): Object: 'Object Repository/Page_Conductor Support Ticket/button_Login' is clicked on
+
+2019-03-24 17:24:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Conductor Support Ticket/button_Login' is clicked on
+
+2019-03-24 17:24:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Sign In with Auth0/input_or_password"), 5): Object 'Object Repository/Page_Sign In with Auth0/input_or_password' is present
+
+2019-03-24 17:24:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Sign In with Auth0/input_or_password' is present
+
+2019-03-24 17:24:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-03-24 17:24:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-24 17:24:48 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Sign In with Auth0/input_or_email"), "client@conductor.com"): Text 'client@conductor.com' is set on object 'Object Repository/Page_Sign In with Auth0/input_or_email'
+
+2019-03-24 17:24:48 - [MESSAGE][PASSED] - Text 'client@conductor.com' is set on object 'Object Repository/Page_Sign In with Auth0/input_or_email'
+
+2019-03-24 17:24:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Sign In with Auth0/input_or_password"), "zjPxhPuRQFuVYAs0Abtybw=="): Text ****** has been set on object 'Object Repository/Page_Sign In with Auth0/input_or_password'
+
+2019-03-24 17:24:48 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign In with Auth0/input_or_password'
+
+2019-03-24 17:24:48 - [TEST_STEP][PASSED] - click(findTestObject("Page_Sign In with Auth0/span_Log In")): Object: 'Object Repository/Page_Sign In with Auth0/span_Log In' is clicked on
+
+2019-03-24 17:24:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign In with Auth0/span_Log In' is clicked on
+
+2019-03-24 17:24:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Conductor Support Ticket/button_Logout"), 5): Object 'Object Repository/Page_Conductor Support Ticket/button_Logout' is present
+
+2019-03-24 17:24:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Conductor Support Ticket/button_Logout' is present
+
+2019-03-24 17:24:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-24 17:24:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-24 17:24:33 - [TEST_SUITE][PASSED] - Login: Test Cases/LoginPass]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
