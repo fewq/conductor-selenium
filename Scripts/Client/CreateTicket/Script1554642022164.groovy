@@ -1,0 +1,45 @@
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://localhost:3000/')
+
+WebUI.click(findTestObject('Object Repository/Page_Conductor Support Ticket/button_Login'))
+
+WebUI.verifyElementPresent(findTestObject('Page_Sign In with Auth0/input_or_password'), 5)
+
+WebUI.delay(1)
+
+WebUI.setText(findTestObject('Page_Sign In with Auth0/input_or_email'), 'client@conductor.com')
+
+WebUI.setEncryptedText(findTestObject('Page_Sign In with Auth0/input_or_password'), 'zjPxhPuRQFuVYAs0Abtybw==')
+
+WebUI.click(findTestObject('Page_Sign In with Auth0/span_Log In'))
+
+WebUI.click(findTestObject('Object Repository/Page_Conductor Support Ticket/a_Create Ticket'))
+
+WebUI.click(findTestObject('Object Repository/Page_Conductor Support Ticket/div_Select'))
+
+WebUI.click(findTestObject('Object Repository/Page_Conductor Support Ticket/div_API DevOps'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Conductor Support Ticket/input_Title_title'), 'testing title')
+
+WebUI.setText(findTestObject('Object Repository/Page_Conductor Support Ticket/textarea_Your Message_description'), 'testing description')
+
+WebUI.click(findTestObject('Object Repository/Page_Conductor Support Ticket/button_Submit'))
+
+WebUI.closeBrowser()
+

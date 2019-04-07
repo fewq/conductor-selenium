@@ -31,17 +31,13 @@ WebUI.click(findTestObject('Page_Sign In with Auth0/span_Log In'))
 
 WebUI.click(findTestObject('Object Repository/Page_Conductor Support Ticket/a_Create Ticket'))
 
-WebUI.click(findTestObject('Object Repository/Page_Conductor Support Ticket/img'))
-
 WebUI.click(findTestObject('Object Repository/Page_Conductor Support Ticket/div_Select'))
 
 WebUI.click(findTestObject('Object Repository/Page_Conductor Support Ticket/div_API DevOps'))
 
-WebUI.click(findTestObject('Object Repository/Page_Conductor Support Ticket/form_Ticket FormTicket TypebugfeatureCategory of issueAPI DevOpsTitleYour MessageResetSubmit'))
+WebUI.setText(findTestObject('Object Repository/Page_Conductor Support Ticket/input_Title_title'), 'testing title')
 
-WebUI.setText(findTestObject('Object Repository/Page_Conductor Support Ticket/input_Title_title'), 'test1')
-
-WebUI.setText(findTestObject('Object Repository/Page_Conductor Support Ticket/textarea_Your Message_description'), 't')
+WebUI.setText(findTestObject('Object Repository/Page_Conductor Support Ticket/textarea_Your Message_description'), 'testing description')
 
 WebUI.click(findTestObject('Object Repository/Page_Conductor Support Ticket/button_Submit'))
 

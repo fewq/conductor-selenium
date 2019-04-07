@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Manage Tickets</name>
+   <name>button_Log In</name>
    <tag></tag>
-   <elementGuidId>0104c165-8efe-42fa-9099-c9b7e37e0a0a</elementGuidId>
+   <elementGuidId>94b619d3-22bf-45eb-8aa8-1f9f3084801e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/main/div/div/div/div/nav/div/ul/li/a</value>
+         <value>//button[@name='submit']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,82 +17,78 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>nav-link</value>
+      <value>auth0-lock-submit</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>name</name>
       <type>Main</type>
-      <value>/dashboard</value>
+      <value>submit</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Log In</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Manage Tickets</value>
+      <value>Log In</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/main[@class=&quot;App&quot;]/div[@class=&quot;App-body&quot;]/div[@class=&quot;container&quot;]/div[1]/div[@class=&quot;container-fluid&quot;]/nav[@class=&quot;navbar navbar-expand-lg navbar-dark bg-dark&quot;]/div[@class=&quot;collpase navbar-collapse&quot;]/ul[@class=&quot;navbar-nav mr-auto&quot;]/li[@class=&quot;navbar-item&quot;]/a[@class=&quot;nav-link&quot;]</value>
+      <value>id(&quot;auth0-lock-container-1&quot;)/div[@class=&quot;auth0-lock auth0-lock-opened auth0-lock-with-tabs&quot;]/div[@class=&quot;auth0-lock-center&quot;]/form[@class=&quot;auth0-lock-widget&quot;]/div[@class=&quot;auth0-lock-widget-container&quot;]/div[@class=&quot;auth0-lock-cred-pane auth0-lock-quiet&quot;]/button[@class=&quot;auth0-lock-submit&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <value>//button[@name='submit']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//div[@id='root']/main/div/div/div/div/nav/div/ul/li/a</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <value>//a[contains(text(),'Manage Tickets')]</value>
+      <value>//div[@id='auth0-lock-container-1']/div/div[2]/form/div/div/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ticket Dashboard'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Don', &quot;'&quot;, 't remember your password?')])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ACNAPI Ticket Support System'])[1]/following::a[3]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create Ticket'])[1]/preceding::a[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='here'])[1]/preceding::a[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <value>(//a[contains(@href, '/dashboard')])[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='or'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//li/a</value>
+      <value>//form/div/div/button</value>
    </webElementXpaths>
 </WebElementEntity>

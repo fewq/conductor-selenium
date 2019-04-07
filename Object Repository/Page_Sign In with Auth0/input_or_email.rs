@@ -78,13 +78,6 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>cli</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;auth0-lock-container-1&quot;)/div[@class=&quot;auth0-lock auth0-lock-opened auth0-lock-with-tabs&quot;]/div[@class=&quot;auth0-lock-center&quot;]/form[@class=&quot;auth0-lock-widget&quot;]/div[@class=&quot;auth0-lock-widget-container&quot;]/div[@class=&quot;auth0-lock-cred-pane auth0-lock-quiet&quot;]/div[3]/span[1]/div[1]/div[1]/div[@class=&quot;auth0-lock-view-content&quot;]/div[1]/div[@class=&quot;auth0-lock-body-content&quot;]/div[@class=&quot;auth0-lock-content&quot;]/div[@class=&quot;auth0-lock-form&quot;]/div[1]/div[4]/div[@class=&quot;auth0-lock-input-block auth0-lock-input-email&quot;]/div[@class=&quot;auth0-lock-input-wrap auth0-lock-focused auth0-lock-input-wrap-with-icon&quot;]/input[@class=&quot;auth0-lock-input&quot;]</value>
