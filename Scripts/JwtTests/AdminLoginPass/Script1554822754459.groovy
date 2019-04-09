@@ -13,7 +13,14 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+import org.openqa.selenium.WebDriver
+import org.openqa.selenium.chrome.ChromeDriver
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+
+
 WebUI.openBrowser('')
+
+WebDriver driver = new ChromeDriver()
 
 WebUI.navigateToUrl('http://localhost:3000/')
 
@@ -31,7 +38,11 @@ WebUI.click(findTestObject('Page_Sign In with Auth0/span_Log In'))
 
 WebUI.verifyElementPresent(findTestObject('Page_Conductor Support Ticket/button_Logout'), 5)
 
-WebUI.waitForPageLoad(0, FailureHandling.STOP_ON_FAILURE)
+localStorage = driver.getLocalStorage()
+
+role = localStorage.getItem("role")
+
+driver.close()
 
 WebUI.closeBrowser()
 
