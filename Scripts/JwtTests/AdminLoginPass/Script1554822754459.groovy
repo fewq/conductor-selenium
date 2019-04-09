@@ -40,7 +40,8 @@ WebUI.verifyElementPresent(findTestObject('Page_Conductor Support Ticket/button_
 
 localStorage = driver.getLocalStorage()
 
-role = localStorage.getItem("role")
+//NOT WORKING
+//role = localStorage.getItem("role")
 
 driver.close()
 
