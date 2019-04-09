@@ -17,29 +17,25 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:3000/')
 
-WebUI.click(findTestObject('Object Repository/Page_Conductor Support Ticket/button_Login'))
+WebUI.click(findTestObject('Page_Conductor Support Ticket/button_Login'))
 
 WebUI.verifyElementPresent(findTestObject('Page_Sign In with Auth0/input_or_password'), 5)
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('Page_Sign In with Auth0/input_or_email'), 'client@conductor.com')
+WebUI.setText(findTestObject('Object Repository/Page_Sign In with Auth0/input_or_email'), 'client@conductor.com')
 
-WebUI.setEncryptedText(findTestObject('Page_Sign In with Auth0/input_or_password'), 'zjPxhPuRQFuVYAs0Abtybw==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Sign In with Auth0/input_or_password'), 'zjPxhPuRQFuVYAs0Abtybw==')
 
-WebUI.click(findTestObject('Page_Sign In with Auth0/span_Log In'))
+WebUI.click(findTestObject('Object Repository/Page_Sign In with Auth0/span_Log In'))
 
-WebUI.click(findTestObject('Object Repository/Page_Conductor Support Ticket/a_Create Ticket'))
+WebUI.click(findTestObject('Page_Conductor Support Ticket/a_Manage Tickets'))
 
-WebUI.click(findTestObject('Object Repository/Page_Conductor Support Ticket/div_Select'))
+WebUI.click(findTestObject('Page_Conductor Support Ticket/button_Delete'))
 
-WebUI.click(findTestObject('Object Repository/Page_Conductor Support Ticket/div_API DevOps'))
+WebUI.delay(1)
 
-WebUI.setText(findTestObject('Object Repository/Page_Conductor Support Ticket/input_Title_title'), 'testing title')
-
-WebUI.setText(findTestObject('Object Repository/Page_Conductor Support Ticket/textarea_Your Message_description'), 'testing description')
-
-WebUI.click(findTestObject('Object Repository/Page_Conductor Support Ticket/button_Submit'))
+WebUI.acceptAlert()
 
 WebUI.closeBrowser()
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>CreateTicket</name>
+   <name>ClientCreateTicket</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>553d8219-1ce3-4089-a8a7-fc65e7d3c632</testCaseGuid>

@@ -14,9 +14,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\thadd\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Authentication\\AdminWrongPasswordFail\\20190409_212326\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\thadd\\AppData\\Local\\Temp\\Katalon\\Test Cases\\JwtTests\\AdminLoginPass\\20190409_231422\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Authentication/AdminWrongPasswordFail', new TestCaseBinding('Test Cases/Authentication/AdminWrongPasswordFail',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/JwtTests/AdminLoginPass', new TestCaseBinding('Test Cases/JwtTests/AdminLoginPass',[:]), FailureHandling.STOP_ON_FAILURE , false)
     

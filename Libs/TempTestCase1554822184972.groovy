@@ -14,9 +14,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\thadd\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Client\\CreateTicket\\20190409_214557\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\thadd\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Client\\ClientDeleteTicket\\20190409_230300\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Client/CreateTicket', new TestCaseBinding('Test Cases/Client/CreateTicket',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/Client/ClientDeleteTicket', new TestCaseBinding('Test Cases/Client/ClientDeleteTicket',[:]), FailureHandling.STOP_ON_FAILURE , false)
     
