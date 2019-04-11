@@ -29,7 +29,7 @@ WebUI.setEncryptedText(findTestObject('Page_Sign In with Auth0/input_or_password
 
 WebUI.click(findTestObject('Page_Sign In with Auth0/span_Log In'))
 
-WebUI.verifyElementPresent(findTestObject('Page_Conductor Support Ticket/button_Logout'), 5)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Conductor Support Ticket/button_Logout'), 5)
 
 WebUI.closeBrowser()
 

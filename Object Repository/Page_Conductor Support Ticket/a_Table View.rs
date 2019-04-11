@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Manage Tickets</name>
+   <name>a_Table View</name>
    <tag></tag>
-   <elementGuidId>0104c165-8efe-42fa-9099-c9b7e37e0a0a</elementGuidId>
+   <elementGuidId>8089c661-fbde-4b17-9a4d-53e98e8516df</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -38,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Manage Tickets</value>
+      <value>Table View</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,7 +57,7 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
-      <value>//a[contains(text(),'Manage Tickets')]</value>
+      <value>//a[contains(text(),'Table View')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,7 +75,7 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create Ticket'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kanban'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,11 +94,5 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <value>//li/a</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ticket List'])[1]/preceding::a[2]</value>
    </webElementXpaths>
 </WebElementEntity>

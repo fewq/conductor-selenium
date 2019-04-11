@@ -9,11 +9,15 @@
          <key>XPATH</key>
          <value>//div[@id='root']/main/div/div/div/div/div/table/tbody/tr[4]/td[6]/a</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'View' or . = 'View')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -27,11 +31,11 @@
       <value>btn btn-primary</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/view/5caca40a9617e12e54b8ba41</value>
+      <value>/view/5caf60fd0ca9d442249b89dc</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -81,6 +85,24 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Thursday, April 11, 2019'])[2]/preceding::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <value>//a[contains(@href, '/view/5caf60fd0ca9d442249b89dc')]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//td[6]/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='here'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
@@ -88,12 +110,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <value>//a[contains(@href, '/view/5caca40a9617e12e54b8ba41')]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <value>//td[6]/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

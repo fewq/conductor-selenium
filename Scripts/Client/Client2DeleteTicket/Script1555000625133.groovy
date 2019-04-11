@@ -23,13 +23,19 @@ WebUI.verifyElementPresent(findTestObject('Page_Sign In with Auth0/input_or_pass
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('Object Repository/Page_Sign In with Auth0/input_or_email'), 'dev@conductor.com')
+WebUI.setText(findTestObject('Object Repository/Page_Sign In with Auth0/input_or_email'), 'client@conductor.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Sign In with Auth0/input_or_password'), 'o6CDTymj93o=')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Sign In with Auth0/input_or_password'), 'zjPxhPuRQFuVYAs0Abtybw==')
 
 WebUI.click(findTestObject('Object Repository/Page_Sign In with Auth0/span_Log In'))
 
-WebUI.verifyElementPresent(findTestObject('Page_Sign In with Auth0/span_Wrong email or password'), 5)
+WebUI.click(findTestObject('Page_Conductor Support Ticket/a_Manage Tickets'))
+
+WebUI.click(findTestObject('Page_Conductor Support Ticket/button_Delete'))
+
+WebUI.delay(1)
+
+WebUI.acceptAlert()
 
 WebUI.closeBrowser()
 

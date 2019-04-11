@@ -23,7 +23,7 @@ WebUI.verifyElementPresent(findTestObject('Page_Sign In with Auth0/input_or_pass
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('Page_Sign In with Auth0/input_or_email'), 'dev@conductor.com')
+WebUI.setText(findTestObject('Page_Sign In with Auth0/input_or_email'), 'tester@conductor.com')
 
 WebUI.setEncryptedText(findTestObject('Page_Sign In with Auth0/input_or_password'), 'zjPxhPuRQFuVYAs0Abtybw==')
 
